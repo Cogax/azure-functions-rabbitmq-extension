@@ -59,7 +59,7 @@ jobs:
   - task: UseDotNet@2
     inputs:
       packageType: 'sdk'
-      version: '2.x'
+      version: '6.x'
       performMultiLevelLookup: true
   - task: DotNetCoreCLI@2
     displayName: 'Build RabbitMQ package'
@@ -161,7 +161,7 @@ jobs:
   - task: UseDotNet@2
     inputs:
       packageType: 'sdk'
-      version: '2.x'
+      version: '6.x'
       performMultiLevelLookup: true
   - task: DotNetCoreCLI@2
     displayName: 'Tests'
